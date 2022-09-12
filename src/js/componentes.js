@@ -1,5 +1,5 @@
 
-const saludar = (nombre) => {
+export const saludar = (nombre) => {
 
     console.log(`Crando etiqueta h1`);
 
