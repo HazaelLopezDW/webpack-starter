@@ -1,4 +1,5 @@
 import '../js/css/componentes.css';
+import webpacklogo from '../assets/img/webpack-logo.png';
 
 export const saludar = (nombre) => {
 
@@ -8,4 +9,9 @@ export const saludar = (nombre) => {
     h1.innerText = `Hola ¿Comó estás?. ${nombre}`;
 
     document.body.append(h1);
+
+    //img
+    // const img = document.createElement('img');
+    // img.src = webpacklogo;
+    // document.body.append(img);
 }

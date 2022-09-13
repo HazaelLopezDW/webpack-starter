@@ -3,3 +3,7 @@ html, body {
     color: black;
     margin: 0;
 }
+
+img {
+    width: 200px;
+}
