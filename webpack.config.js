@@ -28,4 +28,10 @@ module.exports = {
             template: './src/index.html'
         })
     ],
+    devServer: {
+        port: 8080,
+        liveReload: true,
+        hot: false,
+        watchFiles: ['src/**/*.js','dist/**/*']
+    },
 }
